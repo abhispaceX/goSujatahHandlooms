@@ -37,7 +37,7 @@ const Footer = () => {
         {/* Locate Us */}
         <div className="mb-6 md:mb-0">
           <h3 className="font-bold">LOCATE US</h3>
-          <p>Over Courier Adresse.</p>
+          <p>Our Courier Adresse.</p>
           <p>Mr. Bikshpati Kolaan.</p>
           <p>M/s. Go Sujathaa Handlooms.</p>
           <p>9-11, Vellanky - 508113.</p>

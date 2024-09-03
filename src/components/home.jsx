@@ -11,7 +11,7 @@ const HomePage = () => {
         
         <div className="flex flex-col bg-white justify-center items-center bg-none py-8 px-4 sm:px-6 lg:px-8">
           <img src="/Logo2.png" alt="Logo" className="h-32 mb-4" />
-          <div className="text-2xl sm:text-3xl font-bold">𝓖𝓸 𝓢𝓾𝓳𝓪𝓽𝓱𝓪</div>
+          <div className="text-2xl sm:text-3xl font-bold">𝓖𝓸 𝓢𝓾𝓳𝓪𝓽𝓱𝓪𝓪</div>
         </div>
         <Carousel />
         <LogoBelow  />
