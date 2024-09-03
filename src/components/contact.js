@@ -34,7 +34,7 @@ const Contact = () => {
       {/* Contact Information */}
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold">GET IN TOUCH</h2>
-        <p>Over Courier Adresse.</p>
+        <p>Our Courier Address.</p>
         <p>Mr. Bikshpati Kolaan.</p>
         <p>M/s. Go Sujathaa Handlooms.</p>
         <p>9-11, Vellanky - 508113.</p>

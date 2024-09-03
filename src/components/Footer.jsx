@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram, faPinterestP, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -10,14 +11,12 @@ const Footer = () => {
         <div className="mb-6 md:mb-0">
           <h3 className="font-bold">QUICK LINKS</h3>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Meet The Artisans</li>
-            <li>News</li>
-            <li>Contact</li>
-            <li>Craft Tours</li>
-            <li>Weddings</li>
-            <li>Store Credit</li>
+            <Link to='/' >Home</Link>
+            <Link to='/about' >About</Link>
+            <Link to='/' >Meet The Artisans</Link>
+            <Link to='/news' >News</Link>
+            <Link to='/conatct' >Contact</Link>
+            
           </ul>
         </div>
 
@@ -45,21 +44,17 @@ const Footer = () => {
           <p>Dist: Yadadri Bhuvanagiri.</p>
           <p>Telangana.</p>
           <div className="flex space-x-4 mt-4">
-            <a href="https://www.facebook.com" aria-label="Facebook">
+            <Link href="https://www.facebook.com" aria-label="Facebook">
               <FontAwesomeIcon icon={faFacebookF} className="text-gray-800 hover:text-gray-600" />
-            </a>
-            <a href="https://www.twitter.com" aria-label="Twitter">
+            </Link>
+            <Link href="https://www.twitter.com" aria-label="Twitter">
               <FontAwesomeIcon icon={faTwitter} className="text-gray-800 hover:text-gray-600" />
-            </a>
-            <a href="https://www.instagram.com/go.sujathaa.handlooms?igsh=MTN5cXI3bzlxc3hvZg%3D%3D&utm_source=qr" aria-label="Instagram">
+            </Link>
+            <Link href="https://www.instagram.com/go.sujathaa.handlooms?igsh=MTN5cXI3bzlxc3hvZg%3D%3D&utm_source=qr" aria-label="Instagram">
               <FontAwesomeIcon icon={faInstagram} className="text-gray-800 hover:text-gray-600" />
-            </a>
-            <a href="https://www.pinterest.com" aria-label="Pinterest">
-              <FontAwesomeIcon icon={faPinterestP} className="text-gray-800 hover:text-gray-600" />
-            </a>
-            <a href="https://www.youtube.com" aria-label="YouTube">
-              <FontAwesomeIcon icon={faYoutube} className="text-gray-800 hover:text-gray-600" />
-            </a>
+            </Link>
+            
+           
           </div>
         </div>
 

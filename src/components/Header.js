@@ -19,7 +19,6 @@ const Header = () => {
           <nav className="flex space-x-4 ml-8 text-sm">
             <Link to="/" className="text-gray-700 hover:text-black">HOME</Link>
             <Link to="/about" className="text-gray-700 hover:text-black">ABOUT</Link>
-            <Link to="#" className="text-gray-700 hover:text-black">MEET THE ARTISANS</Link>
             <Link to="/news" className="text-gray-700 hover:text-black">NEWS</Link>
             <Link to="/contact" className="text-gray-700 hover:text-black">CONTACT</Link>
          

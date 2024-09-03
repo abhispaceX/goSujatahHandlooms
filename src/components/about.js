@@ -63,14 +63,7 @@ const About = () => {
         </div>
 
         {/* Instagram Section */}
-        <div className="text-center">
-          <a
-            href="https://www.instagram.com/go.sujathaa.handlooms"
-            className="inline-block mt-6 text-gradient-instagram text-2xl font-bold"
-          >
-            Follow us on Instagram
-          </a>
-        </div>
+       
       </div>
     </div>
   );
