@@ -51,7 +51,7 @@ const Header = () => {
 
       {/* Mobile navigation dropdown */}
       <div 
-        className={`absolute top-full left-0 w-full bg-gray-100 md:hidden transition-all duration-300 ease-in-out ${
+        className={`absolute z-10 top-full left-0 w-full bg-gray-200 md:hidden transition-all duration-300 ease-in-out ${
           isNavOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
         }`}
       >
@@ -60,7 +60,6 @@ const Header = () => {
           <a href="/about" className="text-gray-700 hover:text-black w-full">ABOUT</a>
           <a href="/news" className="text-gray-700 hover:text-black w-full">NEWS</a>
           <a href="/contact" className="text-gray-700 hover:text-black w-full">CONTACT</a>
-          
         </nav>
         <div className="flex justify-around p-4 border-t border-gray-200">
           <button className="text-gray-700 p-2">
