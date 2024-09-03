@@ -11,11 +11,10 @@ const Footer = () => {
         <div className="mb-6 md:mb-0">
           <h3 className="font-bold">QUICK LINKS</h3>
           <ul>
-            <Link to='/' >Home</Link>
-            <Link to='/about' >About</Link>
-            <Link to='/' >Meet The Artisans</Link>
-            <Link to='/news' >News</Link>
-            <Link to='/conatct' >Contact</Link>
+            <li><Link to='/' >Home</Link></li>
+            <li><Link to='/about' >About</Link></li>
+            <li><Link to='/news' >News</Link></li>
+            <li><Link to='/conatct' >Contact</Link></li>
             
           </ul>
         </div>
